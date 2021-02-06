@@ -1,5 +1,11 @@
 #!/bin/sh
 
+apt install dnsutils -y
+apt-get install net-tools 
+apt-get install tcpdump
+apt-get install dsniff -y
+apt install grepcidr
+
 # Check if the script is executed as root
 if [ "$(id -u)" -ne 0 ]; then
     echo "Please execute this script as root."
