@@ -58,12 +58,17 @@ sudo apt install grepcidr
 ## Installation
 
 As root user execute the following commands:
-sudo bash < <(curl -Ls https://raw.githubusercontent.com/pockyyang/ddos-deflate/master/ddos-deflate-deploy.sh)
+
 ```shell
 wget https://github.com/pockyyang/ddos-deflate/archive/master.zip -O ddos.zip
 unzip ddos.zip
 cd ddos-deflate-master
 ./install.sh
+```
+
+or 
+```shell
+sudo bash < <(curl -Ls https://raw.githubusercontent.com/pockyyang/ddos-deflate/master/ddos-deflate-deploy.sh)
 ```
 
 ## Uninstallation
