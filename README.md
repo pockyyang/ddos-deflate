@@ -60,7 +60,7 @@ sudo apt install grepcidr
 As root user execute the following commands:
 
 ```shell
-wget https://github.com/jgmdev/ddos-deflate/archive/master.zip -O ddos.zip
+wget https://github.com/pockyyang/ddos-deflate/archive/master.zip -O ddos.zip
 unzip ddos.zip
 cd ddos-deflate-master
 ./install.sh
