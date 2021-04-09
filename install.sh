@@ -5,6 +5,7 @@ apt-get install net-tools
 apt-get install tcpdump
 apt-get install dsniff -y
 apt install grepcidr
+apt-get install unzip
 
 # Check if the script is executed as root
 if [ "$(id -u)" -ne 0 ]; then
